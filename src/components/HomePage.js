@@ -1,17 +1,12 @@
 import React from 'react';
 //import logo from '../../src/ebLogo.png';
-import { message, Button, Table, Modal,Spin } from 'antd';
-import { UploadOutlined ,LoadingOutlined} from '@ant-design/icons'
+import { message, Button, Table, Modal } from 'antd';
 import 'antd/dist/antd.css';
 //import { Table } from 'antd';
 import axios from 'axios'
 //import ErrorBoundary from 'antd/lib/alert/ErrorBoundary';
 //import json from '../constants/table.json'
 import refresh from '../components/reload.svg'
-
-const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
-
-
 
 class HomePage extends React.Component {
 
